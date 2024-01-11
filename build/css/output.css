@@ -739,6 +739,15 @@ select {
   --tw-backdrop-sepia:  ;
 }
 
+.m-6 {
+  margin: 1.5rem !important;
+}
+
+.mx-6 {
+  margin-left: 1.5rem !important;
+  margin-right: 1.5rem !important;
+}
+
 .my-12 {
   margin-top: 3rem !important;
   margin-bottom: 3rem !important;
@@ -762,8 +771,20 @@ select {
   display: flex !important;
 }
 
+.grid {
+  display: grid !important;
+}
+
 .hidden {
   display: none !important;
+}
+
+.h-0 {
+  height: 0px !important;
+}
+
+.h-0\.5 {
+  height: 0.125rem !important;
 }
 
 .h-auto {
@@ -798,6 +819,14 @@ select {
   resize: none !important;
 }
 
+.list-disc {
+  list-style-type: disc !important;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+}
+
 .flex-row {
   flex-direction: row !important;
 }
@@ -808,6 +837,10 @@ select {
 
 .flex-wrap {
   flex-wrap: wrap !important;
+}
+
+.items-start {
+  align-items: flex-start !important;
 }
 
 .items-center {
@@ -822,9 +855,24 @@ select {
   justify-content: center !important;
 }
 
+.gap-x-12 {
+  -moz-column-gap: 3rem !important;
+       column-gap: 3rem !important;
+}
+
 .gap-x-4 {
   -moz-column-gap: 1rem !important;
        column-gap: 1rem !important;
+}
+
+.gap-x-6 {
+  -moz-column-gap: 1.5rem !important;
+       column-gap: 1.5rem !important;
+}
+
+.gap-x-8 {
+  -moz-column-gap: 2rem !important;
+       column-gap: 2rem !important;
 }
 
 .gap-y-12 {
@@ -835,8 +883,41 @@ select {
   row-gap: 4rem !important;
 }
 
+.gap-y-2 {
+  row-gap: 0.5rem !important;
+}
+
 .gap-y-4 {
   row-gap: 1rem !important;
+}
+
+.gap-y-6 {
+  row-gap: 1.5rem !important;
+}
+
+.gap-y-8 {
+  row-gap: 2rem !important;
+}
+
+.border-0 {
+  border-width: 0px !important;
+}
+
+.border-2 {
+  border-width: 2px !important;
+}
+
+.border-solid {
+  border-style: solid !important;
+}
+
+.border-white {
+  --tw-border-opacity: 1 !important;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity)) !important;
+}
+
+.bg-transparent {
+  background-color: transparent !important;
 }
 
 .bg-white {
@@ -871,6 +952,10 @@ select {
   padding: 0.125rem !important;
 }
 
+.p-1 {
+  padding: 0.25rem !important;
+}
+
 .p-2 {
   padding: 0.5rem !important;
 }
@@ -901,6 +986,10 @@ select {
 .py-4 {
   padding-top: 1rem !important;
   padding-bottom: 1rem !important;
+}
+
+.text-left {
+  text-align: left !important;
 }
 
 .text-center {
@@ -953,6 +1042,11 @@ select {
   background-image: linear-gradient(to right, var(--tw-gradient-stops)) !important;
 }
 
+.group:hover .group-hover\:bg-clip-text {
+  -webkit-background-clip: text !important;
+          background-clip: text !important;
+}
+
 .group:hover .group-hover\:text-transparent {
   color: transparent !important;
 }
@@ -963,6 +1057,23 @@ select {
 }
 
 @media (min-width: 768px) {
+  .md\:order-1 {
+    order: 1 !important;
+  }
+
+  .md\:order-2 {
+    order: 2 !important;
+  }
+
+  .md\:m-12 {
+    margin: 3rem !important;
+  }
+
+  .md\:mx-12 {
+    margin-left: 3rem !important;
+    margin-right: 3rem !important;
+  }
+
   .md\:my-12 {
     margin-top: 3rem !important;
     margin-bottom: 3rem !important;
@@ -976,12 +1087,28 @@ select {
     display: none !important;
   }
 
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+
   .md\:flex-row {
     flex-direction: row !important;
   }
 
+  .md\:justify-start {
+    justify-content: flex-start !important;
+  }
+
   .md\:justify-end {
     justify-content: flex-end !important;
+  }
+
+  .md\:gap-y-12 {
+    row-gap: 3rem !important;
+  }
+
+  .md\:gap-y-6 {
+    row-gap: 1.5rem !important;
   }
 
   .md\:p-12 {
@@ -996,12 +1123,25 @@ select {
   .md\:text-left {
     text-align: left !important;
   }
+
+  .md\:text-xl {
+    font-size: 1.25rem !important;
+  }
 }
 
 @media (min-width: 1024px) {
+  .lg\:gap-x-24 {
+    -moz-column-gap: 6rem !important;
+         column-gap: 6rem !important;
+  }
+
   .lg\:px-24 {
     padding-left: 6rem !important;
     padding-right: 6rem !important;
+  }
+
+  .lg\:text-2xl {
+    font-size: 2rem !important;
   }
 
   .lg\:text-3xl {
@@ -1010,6 +1150,16 @@ select {
 }
 
 @media (min-width: 1280px) {
+  .xl\:mx-24 {
+    margin-left: 6rem !important;
+    margin-right: 6rem !important;
+  }
+
+  .xl\:gap-x-24 {
+    -moz-column-gap: 6rem !important;
+         column-gap: 6rem !important;
+  }
+
   .xl\:px-24 {
     padding-left: 6rem !important;
     padding-right: 6rem !important;

@@ -114,6 +114,343 @@
       </button>
     </section>
     <section
+      id="about-section"
+      class="w-screen h-auto grid grid-cols-1 md:grid-cols-2 p-6 md:p-12 xl:px-24 gap-x-12 lg:gap-x-24 gap-y-6 text-white bg-gradient-to-r from-green-500 to-blue-600"
+    >
+      <div>
+        <div class="flex flex-col gap-y-6 justify-center md:justify-start">
+          <h1 class="text-2xl font-semibold text-center md:text-left">
+            About Me
+          </h1>
+          <p class="text-center md:text-left">
+            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+            eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
+            qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+            sed quia non numquam eius modi tempora incidunt ut labore et dolore
+            magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
+            nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
+            aliquid ex ea commodi consequatur? Quis autem vel eum iure
+            reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+            consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
+            pariatur?"
+          </p>
+          <a
+            href="images/nicholas-preziosi-resume.pdf"
+            class="group flex justify-center md:justify-start"
+          >
+            <button
+              class="font-semibold text-xl p-1 border-solid border-2 border-white bg-transparent group-hover:bg-white text-white"
+            >
+              <p
+                class="p-1 text-white group-hover:bg-gradient-to-r from-green-500 to-blue-600 group-hover:text-transparent group-hover:bg-clip-text"
+              >
+                View Resume
+              </p>
+            </button>
+          </a>
+        </div>
+      </div>
+      <div class="flex flex-col gap-y-6 md:gap-y-12">
+        <div class="flex flex-col gap-y-2 md:gap-y-6">
+          <h1 class="text-center md:text-left text-2xl font-semibold">Tools</h1>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-8">
+            <div class="flex flex-col gap-y-2">
+              <h2 class="text-xl font-semibold">Marketing:</h2>
+              <p class="text-center md:text-left">
+                Adobe Photoshop, Lightroom, Premiere Pro, Indesign, Meta Ads
+                Manager, Constant Contact, Mail Chimp
+              </p>
+            </div>
+            <div class="flex flex-col gap-y-2">
+              <h2 class="text-xl font-semibold">Web Development:</h2>
+              <p class="text-center md:text-left">
+                HTML, CSS, JavaScript, React, Tailwind, Bootstrap, Git, NPM,
+                Webpack, Babel, Jest
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col gap-y-2 md:gap-y-6">
+          <h1 class="text-center md:text-left text-2xl font-semibold">
+            Skills
+          </h1>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-8">
+            <div class="flex flex-col gap-y-2">
+              <h2 class="text-xl font-semibold">Marketing:</h2>
+              <ul class="list-disc flex flex-col items-start text-left">
+                <li>Email Marketing</li>
+                <li>Photography & Videography + Editing</li>
+                <li>Social Media</li>
+                <li>Graphic Design</li>
+              </ul>
+            </div>
+            <div class="flex flex-col gap-y-2">
+              <h2 class="text-xl font-semibold">Professional:</h2>
+              <ul class="list-disc flex flex-col items-start text-left">
+                <li>Project Managment</li>
+                <li>Leadership & Managerial Skills</li>
+                <li>Strong Attention to Detail & Organizational Skills</li>
+                <li>Exceptional Problem Solving</li>
+                <li>Customer Service & Client Facing Interactions</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects-section" class="w-screen h-auto">
+      <h1
+        class="text-2xl font-semibold m-6 md:m-12 xl:mx-24 text-center md:text-left"
+      >
+        Projects
+      </h1>
+      <div>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 justify-center items-start m-6 md:m-12 xl:mx-24 gap-x-12 xl:gap-x-24 gap-y-6"
+        >
+          <div class="md:order-1">
+            <img src="./images/knightstravails.jpg" alt="" />
+          </div>
+          <div class="flex flex-col gap-y-4">
+            <div class="flex flex-col gap-y-4">
+              <h1
+                class="text-center md:text-left font-semibold text-xl lg:text-2xl"
+              >
+                Knight's Travails
+              </h1>
+              <p class="text-center md:text-left md:text-xl">
+                Knights Travails is an app intended to calculate and display the
+                minimum number of moves and route a chess piece would need to
+                get from a start point to an end point on a chess board. This
+                app uses a custom tree/graph like data structure and breadth
+                first search to calculate the knights moves.
+              </p>
+            </div>
+            <div class="w-full flex justify-center md:justify-start gap-x-6">
+              <button
+                class="bg-gradient-to-r from-green-500 to-blue-600 text-xl p-0.5 group"
+              >
+                <a href="">
+                  <div
+                    class="h-full w-full bg-white p-2 group-hover:bg-gradient-to-r from-green-500 to-blue-600"
+                  >
+                    <div
+                      class="font-semibold bg-gradient-to-r from-green-500 to-blue-600 text-transparent bg-clip-text group-hover:text-white"
+                    >
+                      View App
+                    </div>
+                  </div>
+                </a>
+              </button>
+              <button
+                class="bg-gradient-to-r from-green-500 to-blue-600 text-xl p-0.5 group"
+              >
+                <a
+                  href="https://github.com/nicholaspreziosi/odin-knights-travails"
+                >
+                  <div
+                    class="h-full w-full bg-white p-2 group-hover:bg-gradient-to-r from-green-500 to-blue-600"
+                  >
+                    <div
+                      class="font-semibold bg-gradient-to-r from-green-500 to-blue-600 text-transparent bg-clip-text group-hover:text-white"
+                    >
+                      Github Repo
+                    </div>
+                  </div>
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <hr
+          class="h-0.5 mx-6 md:mx-12 xl:mx-24 bg-gradient-to-r from-green-500 to-blue-600 border-0"
+        />
+      </div>
+      <div>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 justify-center items-start m-6 md:m-12 xl:mx-24 gap-x-12 xl:gap-x-24 gap-y-6"
+        >
+          <div class="md:order-2">
+            <img src="./images/weatherapp.jpg" alt="" />
+          </div>
+          <div class="flex flex-col gap-y-4 md:order-2">
+            <div class="flex flex-col gap-y-4">
+              <h1
+                class="text-center md:text-left font-semibold text-xl lg:text-2xl"
+              >
+                Weather App
+              </h1>
+              <p class="text-center md:text-left md:text-xl">
+                Weather app designed using WeatherAPI to provide detailed
+                weather forecast information, including 12 hour and 3-day
+                forecasts. The app includes a search bar with an autocomplete
+                feature and the ability to toggle between Fahrenheit and
+                Celsius.
+              </p>
+            </div>
+            <div class="w-full flex justify-center md:justify-start gap-x-6">
+              <button
+                class="bg-gradient-to-r from-green-500 to-blue-600 text-xl p-0.5 group"
+              >
+                <a href="">
+                  <div
+                    class="h-full w-full bg-white p-2 group-hover:bg-gradient-to-r from-green-500 to-blue-600"
+                  >
+                    <div
+                      class="font-semibold bg-gradient-to-r from-green-500 to-blue-600 text-transparent bg-clip-text group-hover:text-white"
+                    >
+                      View App
+                    </div>
+                  </div>
+                </a>
+              </button>
+              <button
+                class="bg-gradient-to-r from-green-500 to-blue-600 text-xl p-0.5 group"
+              >
+                <a href="https://github.com/nicholaspreziosi/odin-weather">
+                  <div
+                    class="h-full w-full bg-white p-2 group-hover:bg-gradient-to-r from-green-500 to-blue-600"
+                  >
+                    <div
+                      class="font-semibold bg-gradient-to-r from-green-500 to-blue-600 text-transparent bg-clip-text group-hover:text-white"
+                    >
+                      Github Repo
+                    </div>
+                  </div>
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <hr
+          class="h-0.5 mx-6 md:mx-12 xl:mx-24 bg-gradient-to-r from-green-500 to-blue-600 border-0"
+        />
+      </div>
+      <div>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 justify-center items-start m-6 md:m-12 xl:mx-24 gap-x-12 xl:gap-x-24 gap-y-6"
+        >
+          <div class="md:order-1">
+            <img src="./images/knightstravails.jpg" alt="" />
+          </div>
+          <div class="flex flex-col gap-y-4">
+            <div class="flex flex-col gap-y-4">
+              <h1
+                class="text-center md:text-left font-semibold text-xl lg:text-2xl"
+              >
+                Knight's Travails
+              </h1>
+              <p class="text-center md:text-left md:text-xl">
+                Knights Travails is an app intended to calculate and display the
+                minimum number of moves and route a chess piece would need to
+                get from a start point to an end point on a chess board. This
+                app uses a custom tree/graph like data structure and breadth
+                first search to calculate the knights moves.
+              </p>
+            </div>
+            <div class="w-full flex justify-center md:justify-start gap-x-6">
+              <button
+                class="bg-gradient-to-r from-green-500 to-blue-600 text-xl p-0.5 group"
+              >
+                <a href="">
+                  <div
+                    class="h-full w-full bg-white p-2 group-hover:bg-gradient-to-r from-green-500 to-blue-600"
+                  >
+                    <div
+                      class="font-semibold bg-gradient-to-r from-green-500 to-blue-600 text-transparent bg-clip-text group-hover:text-white"
+                    >
+                      View App
+                    </div>
+                  </div>
+                </a>
+              </button>
+              <button
+                class="bg-gradient-to-r from-green-500 to-blue-600 text-xl p-0.5 group"
+              >
+                <a
+                  href="https://github.com/nicholaspreziosi/odin-knights-travails"
+                >
+                  <div
+                    class="h-full w-full bg-white p-2 group-hover:bg-gradient-to-r from-green-500 to-blue-600"
+                  >
+                    <div
+                      class="font-semibold bg-gradient-to-r from-green-500 to-blue-600 text-transparent bg-clip-text group-hover:text-white"
+                    >
+                      Github Repo
+                    </div>
+                  </div>
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <hr
+          class="h-0.5 mx-6 md:mx-12 xl:mx-24 bg-gradient-to-r from-green-500 to-blue-600 border-0"
+        />
+      </div>
+      <div>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 justify-center items-start m-6 md:m-12 xl:mx-24 gap-x-12 xl:gap-x-24 gap-y-6"
+        >
+          <div class="md:order-2">
+            <img src="./images/weatherapp.jpg" alt="" />
+          </div>
+          <div class="flex flex-col gap-y-4 md:order-2">
+            <div class="flex flex-col gap-y-4">
+              <h1
+                class="text-center md:text-left font-semibold text-xl lg:text-2xl"
+              >
+                Weather App
+              </h1>
+              <p class="text-center md:text-left md:text-xl">
+                Weather app designed using WeatherAPI to provide detailed
+                weather forecast information, including 12 hour and 3-day
+                forecasts. The app includes a search bar with an autocomplete
+                feature and the ability to toggle between Fahrenheit and
+                Celsius.
+              </p>
+            </div>
+            <div class="w-full flex justify-center md:justify-start gap-x-6">
+              <button
+                class="bg-gradient-to-r from-green-500 to-blue-600 text-xl p-0.5 group"
+              >
+                <a href="">
+                  <div
+                    class="h-full w-full bg-white p-2 group-hover:bg-gradient-to-r from-green-500 to-blue-600"
+                  >
+                    <div
+                      class="font-semibold bg-gradient-to-r from-green-500 to-blue-600 text-transparent bg-clip-text group-hover:text-white"
+                    >
+                      View App
+                    </div>
+                  </div>
+                </a>
+              </button>
+              <button
+                class="bg-gradient-to-r from-green-500 to-blue-600 text-xl p-0.5 group"
+              >
+                <a href="https://github.com/nicholaspreziosi/odin-weather">
+                  <div
+                    class="h-full w-full bg-white p-2 group-hover:bg-gradient-to-r from-green-500 to-blue-600"
+                  >
+                    <div
+                      class="font-semibold bg-gradient-to-r from-green-500 to-blue-600 text-transparent bg-clip-text group-hover:text-white"
+                    >
+                      Github Repo
+                    </div>
+                  </div>
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
       id="contact-section"
       class="w-screen h-auto p-6 md:p-12 xl:px-24 bg-gradient-to-r from-green-500 to-blue-600 gap-y-12"
     >
