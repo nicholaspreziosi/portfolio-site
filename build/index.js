@@ -40,6 +40,25 @@ const instagramLeave = () => {
   instagramIcon.setAttribute("fill", "white");
 };
 
+//declare desktop menu functions
+const checkForHome = () => {
+  if (isInViewport()) {
+    desktopNav.setAttribute("style", "opacity: 0.9");
+  } else {
+    desktopNav.setAttribute("style", "opacity: 0");
+  }
+};
+
+function isInViewport() {
+  const rect = homeSection.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <= (window.innerHeight || homeSection.clientHeight) &&
+    rect.right <= (window.innerWidth || homeSection.clientWidth)
+  );
+}
+
 //query DOM
 const mobileMenu = document.querySelector("#mobile-menu");
 const hamburger = document.querySelector("#hamburger");
@@ -51,6 +70,8 @@ const githubGroup = document.querySelector("#github-icon-group");
 const githubIcon = document.querySelector("#github-icon");
 const instagramGroup = document.querySelector("#instagram-icon-group");
 const instagramIcon = document.querySelector("#instagram-icon");
+const desktopNav = document.querySelector("#desktop-menu-container");
+const homeSection = document.querySelector("#home-section");
 
 //bind events
 hamburger.addEventListener("click", dropdown);
@@ -62,3 +83,4 @@ githubGroup.addEventListener("mouseover", githubHover);
 githubGroup.addEventListener("mouseleave", githubLeave);
 instagramGroup.addEventListener("mouseover", instagramHover);
 instagramGroup.addEventListener("mouseleave", instagramLeave);
+document.addEventListener("scroll", checkForHome);
