@@ -43,7 +43,7 @@ const instagramLeave = () => {
 //declare desktop menu functions
 const checkForHome = () => {
   if (isInViewport()) {
-    desktopNav.setAttribute("style", "opacity: 0.9");
+    desktopNav.setAttribute("style", "opacity: 1");
   } else {
     desktopNav.setAttribute("style", "opacity: 0");
   }
