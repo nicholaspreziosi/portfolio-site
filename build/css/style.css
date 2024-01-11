@@ -11,3 +11,16 @@
     opacity: 1;
   }
 }
+
+.bg-transition {
+  transition: opacity 0.5s;
+}
+
+.text-transition {
+  transition: color 0.5s;
+}
+
+.github-icon:hover {
+  fill: url(#myGradient);
+  fill-opacity: 0;
+}

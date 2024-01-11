@@ -3,43 +3,114 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
     />
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
-    <link href="output.css" rel="stylesheet" />
-    <link href="style.css" rel="stylesheet" />
+    <link href="./css/output.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <script src="index.js" defer></script>
     <title>Nick Preziosi</title>
   </head>
-  <body>
-    <section
-      id="home"
-      class="w-screen h-screen flex flex-col justify-center items-center gap-y-16 px-40"
-    >
-      <h1 id="intro" class="fade-in text-3xl font-semibold">
-        Hi! My name is
-        <span
-          class="bg-gradient-to-r from-green-400 to-blue-500 text-transparent bg-clip-text"
-          >Nick Preziosi</span
+  <body class="fade-in">
+    <section id="nav-section" class="w-screen bg-white">
+      <div class="flex justify-end w-full">
+        <svg
+          id="hamburger"
+          class="block md:hidden p-4 cursor-pointer"
+          xmlns="http://www.w3.org/2000/svg"
+          width="100"
+          height="100"
+          style="fill: url(#hamburgerGradient)"
+          class="bi bi-list"
+          viewBox="0 0 16 16"
         >
-        , and I am a digital marketer & web developer.
-      </h1>
-      <button
-        href="#about"
-        id="learn-more"
-        class="fade-in bg-gradient-to-r from-green-400 to-blue-500 text-xl p-0.5 group"
-      >
-        <div
-          class="h-full w-full bg-white p-2 group-hover:bg-gradient-to-r from-green-400 to-blue-500"
-        >
+          <defs>
+            <linearGradient id="hamburgerGradient">
+              <stop offset="0%" stop-color="#22c55e" />
+              <stop offset="100%" stop-color="#2563eb" />
+            </linearGradient>
+          </defs>
+          <path
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+          />
+        </svg>
+      </div>
+      <nav class="bg-white text-xl">
+        <div id="mobile-menu" class="hidden md:hidden">
           <div
-            class="bg-gradient-to-r from-green-400 to-blue-500 text-transparent bg-clip-text group-hover:text-white"
+            class="bg-gradient-to-r from-green-500 to-blue-600 text-white py-4"
           >
-            Learn More
+            <a href="#home-section" class="transition-colors block py-2 px-3"
+              >Home</a
+            >
+            <a href="#about-section" class="transition-colors block py-2 px-3"
+              >About</a
+            >
+            <a
+              href="#projects-section"
+              class="transition-colors block py-2 px-3"
+              >Projects</a
+            >
+            <a href="#contact-section" class="transition-colors block py-2 px-3"
+              >Contact</a
+            >
           </div>
         </div>
+        <div class="flex flex-wrap items-center justify-end md:justify-end">
+          <div id="desktop-menu" class="hidden md:flex md:flex-row p-4 text-xl">
+            <a
+              href="#home-section"
+              class="transition-colors block py-2 px-3 hover:text-transparent bg-gradient-to-r from-green-500 to-blue-600 bg-clip-text"
+              >Home</a
+            >
+            <a
+              href="#about-section"
+              class="transition-colors block py-2 px-3 hover:text-transparent bg-gradient-to-r from-green-500 to-blue-600 bg-clip-text"
+              >About</a
+            >
+            <a
+              href="#projects-section"
+              class="transition-colors block py-2 px-3 hover:text-transparent bg-gradient-to-r from-green-500 to-blue-600 bg-clip-text"
+              >Projects</a
+            >
+            <a
+              href="#contact-section"
+              class="transition-colors block py-2 px-3 hover:text-transparent bg-gradient-to-r from-green-500 to-blue-600 bg-clip-text"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </nav>
+    </section>
+    <section
+      id="home-section"
+      class="w-screen h-screen flex flex-col justify-center items-center gap-y-16 px-6 md:px-12 lg:px-24"
+    >
+      <h1 id="intro" class="text-2xl lg:text-3xl font-semibold">
+        Hi! My name is
+        <span
+          class="bg-gradient-to-r from-green-500 to-blue-600 text-transparent bg-clip-text"
+          >Nick Preziosi</span
+        >, & I'm a digital marketer & web developer.
+      </h1>
+      <button
+        id="learn-more"
+        class="bg-gradient-to-r from-green-500 to-blue-600 text-xl p-0.5 group"
+      >
+        <a href="#about-section">
+          <div
+            class="h-full w-full bg-white p-2 group-hover:bg-gradient-to-r from-green-500 to-blue-600"
+          >
+            <div
+              class="font-semibold bg-gradient-to-r from-green-500 to-blue-600 text-transparent bg-clip-text group-hover:text-white"
+            >
+              Learn More
+            </div>
+          </div>
+        </a>
       </button>
     </section>
   </body>

@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "tailwind-watch": "npx tailwindcss -i ./src/input.css -o ./build/output.css --watch"
+    "tailwind-watch": "npx tailwindcss -i ./src/input.css -o ./build/css/output.css --watch"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.7"
