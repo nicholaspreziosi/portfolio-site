@@ -1,9 +1,23 @@
 // declare mobile drop down function
 const dropdown = () => {
-  if (mobileMenu.classList.value === "hidden md:hidden") {
-    mobileMenu.classList.value = "block md:hidden";
+  if (
+    mobileMenu.classList.value ===
+    "w-full absolute top-0 left-0 hidden md:hidden"
+  ) {
+    mobileMenu.classList.value = "w-full absolute top-0 left-0 block md:hidden";
   } else {
-    mobileMenu.classList.value = "hidden md:hidden";
+    mobileMenu.classList.value =
+      "w-full absolute top-0 left-0 hidden md:hidden";
+  }
+};
+
+const colorHamburger = () => {
+  if (hamburger.classList.contains("hamburger-white")) {
+    hamburger.classList.remove("hamburger-white");
+    hamburger.classList.add("hamburger-gradient");
+  } else {
+    hamburger.classList.remove("hamburger-gradient");
+    hamburger.classList.add("hamburger-white");
   }
 };
 
@@ -49,6 +63,7 @@ const checkForHome = () => {
   }
 };
 
+//
 function isInViewport() {
   const rect = homeSection.getBoundingClientRect();
   return (
@@ -74,7 +89,10 @@ const desktopNav = document.querySelector("#desktop-menu-container");
 const homeSection = document.querySelector("#home-section");
 
 //bind events
-hamburger.addEventListener("click", dropdown);
+hamburger.addEventListener("click", () => {
+  dropdown();
+  colorHamburger();
+});
 emailGroup.addEventListener("mouseover", emailHover);
 emailGroup.addEventListener("mouseleave", emailLeave);
 linkedinGroup.addEventListener("mouseover", linkedinHover);
@@ -84,3 +102,4 @@ githubGroup.addEventListener("mouseleave", githubLeave);
 instagramGroup.addEventListener("mouseover", instagramHover);
 instagramGroup.addEventListener("mouseleave", instagramLeave);
 document.addEventListener("scroll", checkForHome);
+window.addEventListener("resize", checkForHome);

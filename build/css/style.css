@@ -24,3 +24,11 @@
   fill: url(#myGradient);
   fill-opacity: 0;
 }
+
+.hamburger-gradient {
+  fill: url(#hamburgerGradient);
+}
+
+.hamburger-white {
+  fill: white;
+}
