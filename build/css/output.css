@@ -767,6 +767,10 @@ select {
   margin: auto !important;
 }
 
+.m-12 {
+  margin: 3rem !important;
+}
+
 .mx-6 {
   margin-left: 1.5rem !important;
   margin-right: 1.5rem !important;
@@ -775,6 +779,15 @@ select {
 .my-6 {
   margin-top: 1.5rem !important;
   margin-bottom: 1.5rem !important;
+}
+
+.my-12 {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+}
+
+.mb-12 {
+  margin-bottom: 3rem !important;
 }
 
 .block {
@@ -982,6 +995,11 @@ select {
 .px-6 {
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
+}
+
+.py-12 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
 }
 
 .py-2 {
