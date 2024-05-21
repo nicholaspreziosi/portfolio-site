@@ -759,6 +759,10 @@ select {
   top: 0px !important;
 }
 
+.m-12 {
+  margin: 3rem !important;
+}
+
 .m-6 {
   margin: 1.5rem !important;
 }
@@ -767,23 +771,19 @@ select {
   margin: auto !important;
 }
 
-.m-12 {
-  margin: 3rem !important;
-}
-
 .mx-6 {
   margin-left: 1.5rem !important;
   margin-right: 1.5rem !important;
 }
 
-.my-6 {
-  margin-top: 1.5rem !important;
-  margin-bottom: 1.5rem !important;
-}
-
 .my-12 {
   margin-top: 3rem !important;
   margin-bottom: 3rem !important;
+}
+
+.my-6 {
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
 }
 
 .mb-12 {
@@ -836,6 +836,10 @@ select {
 
 .cursor-pointer {
   cursor: pointer !important;
+}
+
+.list-inside {
+  list-style-position: inside !important;
 }
 
 .list-disc {
@@ -904,10 +908,6 @@ select {
 
 .gap-y-2 {
   row-gap: 0.5rem !important;
-}
-
-.gap-y-4 {
-  row-gap: 1rem !important;
 }
 
 .gap-y-6 {
