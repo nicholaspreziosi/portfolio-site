@@ -1,6 +1,6 @@
 # Nicholas Preziosi Portfolio Site
 
-My portfolio site showcases my most recent projects/work and is updated frequently! The static site utilizes Tailwind CSS in addition to raw HTML, CSS, and Javascript to provide a sleek, responsive design. I gained a solid understanding of Tailwind by using it in this project.
+This portfolio site showcases my most recent projects/work and is updated frequently! I gained a solid understanding of Tailwind CSS by using it in this project in order to create a sleek, responsive design.
 
 <p align="center">
 <img 
@@ -9,6 +9,23 @@ My portfolio site showcases my most recent projects/work and is updated frequent
     alt="Nicholas Preziosi Portfolio Preview">
 </img>
 </p>
+
+## Technologies Used
+
+<div>
+    <li style="margin: auto">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="auto" height="25" alt="HTML5 Powered" title="HTML5 Powered">
+        HTML
+    </li>
+    <li>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="auto" height="25" alt="JavaScript Powered" title="JavaScript Powered"/>
+        JavaScript
+    </li>
+    <li>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" width="auto" height="25" alt="Tailwind CSS Powered" title="Tailwind CSS Powered"/>
+        Tailwind CSS
+    </li>
+</div>
 
 ## Link to Site
 
