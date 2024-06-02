@@ -12,4 +12,4 @@ My portfolio site showcases my most recent projects/work and is updated frequent
 
 ## Link to Site
 
-View my portfolio site [here](https://nicholaspreziosi.github.io/odin-knights-travails/).
+View my portfolio site [here](https://www.nicholaspreziosi.com/).
