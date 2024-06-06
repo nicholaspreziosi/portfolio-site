@@ -4,7 +4,6 @@ This portfolio site showcases my most recent projects/work and is updated freque
 
 <p align="center">
 <img 
-    style="width: 40%;"
     src="https://www.nicholaspreziosi.com/build/images/portfolio.jpg" 
     alt="Nicholas Preziosi Portfolio Preview">
 </img>
