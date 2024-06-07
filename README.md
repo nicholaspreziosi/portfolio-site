@@ -3,10 +3,12 @@
 This portfolio site showcases my most recent projects/work and is updated frequently! I gained a solid understanding of Tailwind CSS by using it in this project in order to create a sleek, responsive design.
 
 <p align="center">
-<img
-    src="./build/images/portfolio.jpeg"
-    alt="Nicholas Preziosi Portfolio Preview">
-</img>
+    <a href="https://www.nicholaspreziosi.com/">
+        <img
+            src="./build/images/portfolio.jpeg"
+            alt="Nicholas Preziosi Portfolio Preview">
+        </img>
+    </a>
 </p>
 
 ## Technologies Used
