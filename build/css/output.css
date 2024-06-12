@@ -842,10 +842,6 @@ select {
   list-style-position: inside !important;
 }
 
-.list-outside {
-  list-style-position: outside !important;
-}
-
 .list-disc {
   list-style-type: disc !important;
 }
@@ -1016,14 +1012,6 @@ select {
   padding-bottom: 1rem !important;
 }
 
-.pl-6 {
-  padding-left: 1.5rem !important;
-}
-
-.pl-0 {
-  padding-left: 0px !important;
-}
-
 .text-left {
   text-align: left !important;
 }
@@ -1140,10 +1128,6 @@ select {
     width: 100% !important;
   }
 
-  .md\:list-inside {
-    list-style-position: inside !important;
-  }
-
   .md\:list-outside {
     list-style-position: outside !important;
   }
@@ -1183,10 +1167,6 @@ select {
   .md\:px-12 {
     padding-left: 3rem !important;
     padding-right: 3rem !important;
-  }
-
-  .md\:pl-0 {
-    padding-left: 0px !important;
   }
 
   .md\:text-left {
